@@ -41,6 +41,25 @@ Você só precisa de um navegador web moderno (Chrome, Firefox, Edge, Safari, et
 **URL para acessar a aplicação:**
 Basta abrir o arquivo `index.html` localmente. A URL será algo como `file:///caminho/para/seu/projeto/index.html`.
 
+### Como Executar no VS Code (Recomendado para Desenvolvimento)
+
+Para uma experiência de desenvolvimento mais prática com recarregamento automático da página:
+
+1.  **Abra a Pasta do Projeto no VS Code:**
+    *   No VS Code, vá em `File` (Arquivo) > `Open Folder...` (Abrir Pasta...).
+    *   Navegue até a pasta `C:\Users\cliente\shopping-cart-spa` (ou o local onde você salvou o projeto) e clique em "Selecionar Pasta".
+
+2.  **Instale a Extensão Live Server:**
+    *   No VS Code, vá para a aba de Extensões (o ícone de quadrados no lado esquerdo ou use `Ctrl+Shift+X`).
+    *   Procure por "Live Server" e instale a extensão do autor **Ritwick Dey**.
+
+3.  **Inicie o Live Server:**
+    *   Após a instalação, retorne ao arquivo `index.html` no VS Code.
+    *   Clique com o botão direito do mouse no arquivo `index.html` e selecione `Open with Live Server`.
+    *   Isso abrirá a aplicação automaticamente no seu navegador padrão, geralmente em um endereço como `http://127.0.0.1:5500/index.html`.
+
+    *Alternativamente, você pode clicar no botão "Go Live" na barra de status inferior do VS Code.*
+
 ### Comandos para Executar Testes
 
 Os testes para esta aplicação são manuais, conforme o planejamento de testes. Siga as instruções no `test_plan.md` para executar os cenários de teste.

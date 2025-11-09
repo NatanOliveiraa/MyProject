@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const clearCartButton = document.getElementById('clear-cart-btn');
 
     let products = [
-        { id: 1, name: 'Produto A', price: 10.00 },
-        { id: 2, name: 'Produto B', price: 20.00 },
-        { id: 3, name: 'Produto C', price: 15.00 }
+        { id: 1, name: 'Produto A', price: 20.00 },
+        { id: 2, name: 'Produto B', price: 30.00 },
+        { id: 3, name: 'Produto C', price: 45.00 }
     ];
 
     let cart = loadCartFromLocalStorage();
